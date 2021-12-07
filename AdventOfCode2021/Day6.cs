@@ -15,7 +15,7 @@ namespace AdventOfCode2021
 			var fishes = INPUT.Split(",").Select(int.Parse).ToList();
 
 			/*
-			 * insight: there are only 8 valid lifetime values, so we should count how many fish are in each stage,
+			 * insight: there are only 9 valid lifetime values, so we should count how many fish are in each stage,
 			 *		instead of simulating each fish itself
 			 */
 
