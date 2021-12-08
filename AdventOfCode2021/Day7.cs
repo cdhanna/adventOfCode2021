@@ -9,8 +9,8 @@ namespace AdventOfCode2021
 	{
 
 		[Test]
-		[TestCase("16,1,2,0,4,2,7,1,2,14", 328187)]
-		[TestCase(INPUT, 37)]
+		[TestCase("16,1,2,0,4,2,7,1,2,14", 37)]
+		[TestCase(INPUT, 328187)]
 		public void Puzzle1(string crabInput, int expected)
 		{
 			var crabs = crabInput.Split(",").Select(int.Parse).ToList();
